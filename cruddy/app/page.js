@@ -31,12 +31,12 @@ export default function Home() {
       Cruddy gives you a clean, fast interface to create, view, edit, and delete users — all connected to your MongoDB database in real time.
     </p>
     <div class="flex flex-wrap justify-center gap-3">
-      <button class="bg-slate-900 text-white px-7 py-3 rounded-lg text-sm font-medium flex items-center gap-2 hover:opacity-90 transition-opacity">
+      <Link href={"/users"} class="bg-slate-900 text-white px-7 py-3 rounded-lg text-sm font-medium flex items-center gap-2 hover:opacity-90 transition-opacity">
         <i class="ti ti-users"></i> View all users
-      </button>
-      <button class="bg-white text-slate-900 border border-slate-200 px-7 py-3 rounded-lg text-sm font-medium flex items-center gap-2 hover:bg-slate-50 transition-colors">
+      </Link>
+      <Link href={"/users/addUser"} class="bg-white text-slate-900 border border-slate-200 px-7 py-3 rounded-lg text-sm font-medium flex items-center gap-2 hover:bg-slate-50 transition-colors">
         <i class="ti ti-plus"></i> Add a user
-      </button>
+      </Link>
     </div>
   </div>
 
