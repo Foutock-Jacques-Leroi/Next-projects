@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Users – Cruddy",
+  description: "Browse, edit and manage all users in your MongoDB database.",
+};
+
+
 export default function Home() {
   return (
     <>

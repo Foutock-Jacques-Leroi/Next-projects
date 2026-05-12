@@ -6,6 +6,11 @@ import { Suspense } from "react";
 import Load from "@/app/lib/load";
 import UserList from "@/app/lib/userlist";
 
+export const metadata = {
+  title: "Account – Cruddy",
+  description: "Overview of your user management system users's accounts",
+};
+
 export default function Account() {
 
   return (

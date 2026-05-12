@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Dashboard – Cruddy",
+  description: "Overview of your user management system.",
+};
+
+
 export default function Dashboard() {
   return (
     <>

@@ -2,6 +2,11 @@ import User from "@/app/models/Users";
 import { connectToMongoDB } from "@/app/lib/mongodb";
 import EditUserPage from "@/app/lib/editform";
 
+export const metadata = {
+  title: "Edit Users – Cruddy",
+  description: "Edit users in the fyjl user management system.",
+};
+
 export default async function EditUser({ params }) {
     const {editId} = await params
     await connectToMongoDB();
