@@ -1,10 +1,4 @@
-import AddUserClient from "./AddUserClient";
-
 export const metadata = {
   title: "Add Users – Cruddy",
   description: "Add users in the fyjl user management system.",
 };
-
-export default function AddUserPage() {
-  return <AddUserClient />;
-}
